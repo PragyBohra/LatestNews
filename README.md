@@ -1,4 +1,4 @@
-# 📰 NewsVerse
+# 📰 LatestNews
 
 A modern news web application built using HTML, CSS, and JavaScript.
 
@@ -14,14 +14,14 @@ A modern news web application built using HTML, CSS, and JavaScript.
 
 ## 🛠 Technologies
 
-- HTML5
-- CSS3
-- JavaScript (ES6)
+- HTML
+- CSS
+- JavaScript
 - NewsAPI
+
 
 ## 👨‍💻 Author
 
 Pragy Bohra
 
-Electrical Engineering
-IIT Mandi
+Indian Institute of Technology Mandi

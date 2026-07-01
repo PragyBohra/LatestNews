@@ -1,6 +1,6 @@
 class NewsApp {
     constructor() {
-        this.API_KEY = "a5af5a09c8714f3db1384d2149db9153";
+        this.API_KEY = "YOUR_API_KEY_HERE";
 
         this.BASE_URL = "https://newsapi.org/v2";
 
