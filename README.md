@@ -12,6 +12,10 @@ A modern news web application built using HTML, CSS, and JavaScript.
 - ⚡ Fast UI
 - 🖼 Default Image Support
 
+## 🌐 API
+
+This project uses the **NewsAPI** to fetch the latest news articles from various trusted sources in real time.
+
 ## 🛠 Technologies
 
 - HTML
@@ -19,9 +23,21 @@ A modern news web application built using HTML, CSS, and JavaScript.
 - JavaScript
 - NewsAPI
 
+## 📂 Project Structure
+
+```
+NewsVerse/
+│── index.html
+│── style.css
+│── script.js
+│── README.md
+└── assets/
+    ├── images/
+    └── icons/
+```
 
 ## 👨‍💻 Author
 
-Pragy Bohra
+**Pragy Bohra**
 
 Indian Institute of Technology Mandi
