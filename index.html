@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LatestNews - Stay Informed </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="theme-toggle" id="themeToggle">
+        <span id="themeIcon">🌙</span>
+    </div>
+    <div class="container">
+        <div class="header">
+            <h1> 
+                📰LatestNews
+            </h1>
+            <p>
+                Stay informed with the latest news from around the world!!!
+            </p>
+            <p class="author">
+                -Made by <strong>Pragy Bohra</strong>
+            </p>
+        </div>
+        <div class="search-categories">
+            <input type="text" class="search-box"
+            placeholder="Search news... " id="searchInput">
+            <div class="categories">
+                <button class="category-btn active"
+                data-category="general">
+                    General
+                </button>
+                <button class="category-btn"
+                data-category="business">
+                    Business
+                </button>
+                <button class="category-btn"
+                data-category="entertainment">
+                    Entertainment
+                </button>
+                <button class="category-btn"
+                data-category="health">
+                    Health
+                </button>
+                <button class="category-btn"
+                data-category="science">
+                    Science
+                </button>
+                <button class="category-btn"
+                data-category="sports">
+                    Sports
+                </button>
+                <button class="category-btn"
+                data-category="technology">
+                    Technology
+                </button>
+            </div>
+        </div>
+
+        <div class="news-grid" id="newsGrid">
+
+        </div>
+
+        <div class="loading" id="loading" style="display:
+        none;">
+        Loading news ...
+        </div>
+
+        <div class="error" id="error" style="display: none;">
+
+        </div>
+        <div class="end-message" id="endMessage" style ="display: none;">
+            🥰You've reached the end! BYE!!!
+        </div>
+
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
+
+<!-- html is my main file
+we add css & js into it
+1. header and para(Title)
+2. search box
+3. we remove active because only one button will be active at a time
+sytle: in line css
+error if our app makes an error
+
+
+We will do style next in style.css
+for styling purposes
+
+root declare in pseudo class for not writingcolor name everytime we use -->
